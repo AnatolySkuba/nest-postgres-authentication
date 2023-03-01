@@ -1,0 +1,17 @@
+{
+  "sqltools.connections": [
+    {
+      "pgOptions": {
+        "ssl": true
+      },
+      "previewLimit": 50,
+      "server": "dpg-cfuerf1a6gdotcb8h1f0-a.frankfurt-postgres.render.com",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "auth",
+      "database": "authentication_fd4o",
+      "username": "anatoly",
+      "password": "Lfd0hJyarY3BSFoiubAPJ355GokDXIxO"
+    }
+  ]
+}
