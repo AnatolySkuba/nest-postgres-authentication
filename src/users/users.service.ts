@@ -14,7 +14,7 @@ export class UsersService {
   constructor(private prisma: PrismaService) {}
 
   // use by the auth module to register a user in the database
-  async create(userDto: CreateUserDto): Promise<any> {
+  async create(userDto: CreateUserDto): Promise<User> {
     // check if Administrator have a parentId
     if (userDto.role === 'ADMIN' && userDto.parentId) {
       throw new HttpException(
